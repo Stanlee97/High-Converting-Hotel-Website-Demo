@@ -20,15 +20,15 @@ export function Footer() {
               </div>
               <div>
                 <div className="text-white" style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.05rem', fontWeight: 700 }}>
-                  BRANDON
+                  SDM TAVERN
                 </div>
                 <div className="text-xs tracking-widest" style={{ color: BRAND_GOLD }}>
-                  HOTEL & APARTMENTS
+                  HOTEL & SUITES
                 </div>
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-5" style={{ color: 'rgba(255,255,255,0.65)', fontFamily: 'Inter, sans-serif' }}>
-              Experience comfort, elegance and world-class hospitality in the heart of Ogbomosho, Nigeria.
+              Experience comfort, elegance and world-class hospitality in the heart of Ibadan, Nigeria.
             </p>
             <div className="flex items-center gap-3">
               {[Facebook, Instagram, Twitter].map((Icon, i) => (
@@ -103,14 +103,14 @@ export function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin size={16} className="mt-0.5 shrink-0" style={{ color: BRAND_GOLD }} />
                 <p className="text-sm" style={{ color: 'rgba(255,255,255,0.65)', fontFamily: 'Inter, sans-serif' }}>
-                  123 Station Road, Ogbomosho, Oyo State, Nigeria
+                  Agodi, Ibadan 200285, Oyo State
                 </p>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={16} className="shrink-0" style={{ color: BRAND_GOLD }} />
                 <div>
-                  <a href="tel:+2348012345678" className="text-sm block" style={{ color: 'rgba(255,255,255,0.65)', fontFamily: 'Inter, sans-serif' }}>
-                    +234 801 234 5678
+                  <a href="tel:+2348088269483" className="text-sm block" style={{ color: 'rgba(255,255,255,0.65)', fontFamily: 'Inter, sans-serif' }}>
+                    +234 808 826 9483
                   </a>
                   <a href="tel:+2348098765432" className="text-sm block" style={{ color: 'rgba(255,255,255,0.65)', fontFamily: 'Inter, sans-serif' }}>
                     +234 809 876 5432
@@ -119,8 +119,8 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={16} className="shrink-0" style={{ color: BRAND_GOLD }} />
-                <a href="mailto:info@brandonhotel.com" className="text-sm" style={{ color: 'rgba(255,255,255,0.65)', fontFamily: 'Inter, sans-serif' }}>
-                  info@brandonhotel.com
+                <a href="mailto:info@sdmnitrotech.com.ng" className="text-sm" style={{ color: 'rgba(255,255,255,0.65)', fontFamily: 'Inter, sans-serif' }}>
+                  info@sdmnitrotech.com.ng
                 </a>
               </div>
             </div>
@@ -132,7 +132,7 @@ export function Footer() {
       <div className="border-t" style={{ borderColor: 'rgba(255,255,255,0.08)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs" style={{ color: 'rgba(255,255,255,0.45)', fontFamily: 'Inter, sans-serif' }}>
-            © 2026 Brandon Hotel & Apartments. All rights reserved.
+            © 2026 SDM Tavern Hotel & Suites. All rights reserved.
           </p>
           <p className="text-xs" style={{ color: 'rgba(255,255,255,0.35)', fontFamily: 'Inter, sans-serif' }}>
             Designed for excellence in Nigerian hospitality

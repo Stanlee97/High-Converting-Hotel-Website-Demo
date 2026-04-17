@@ -54,7 +54,7 @@ const highlights = [
 ];
 
 const reviews = [
-  { name: 'Adebayo O.', rating: 5, text: 'Absolutely exceptional experience! The rooms are clean, staff are friendly, and the restaurant food was outstanding. Best hotel in Ogbomosho!', date: '2 weeks ago' },
+  { name: 'Adebayo O.', rating: 5, text: 'Absolutely exceptional experience! The rooms are clean, staff are friendly, and the restaurant food was outstanding. Best hotel in Ibadan!', date: '2 weeks ago' },
   { name: 'Chioma N.', rating: 5, text: 'Stayed here for a business trip. The WiFi was fast, room was spotless, and they never had a power outage. Will definitely come back!', date: '1 month ago' },
   { name: 'Emmanuel A.', rating: 5, text: 'Hosted our family event here and it was perfect. The hall was beautifully arranged and the catering service was top notch!', date: '3 weeks ago' },
   { name: 'Fatima K.', rating: 4, text: 'Great hospitality. The room was comfortable and the breakfast buffet had great variety. Very good value for money.', date: '1 month ago' },
@@ -95,7 +95,7 @@ export function HomePage() {
         <div className="absolute inset-0">
           <ImageWithFallback
             src="https://images.unsplash.com/photo-1766928210443-0be92ed5884a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1920"
-            alt="Brandon Hotel"
+            alt="SDM Tavern"
             className="w-full h-full object-cover"
           />
           <div
@@ -110,18 +110,18 @@ export function HomePage() {
             className="inline-block px-4 py-1.5 rounded-full text-xs tracking-widest mb-6 uppercase"
             style={{ backgroundColor: 'rgba(201,168,76,0.2)', color: BRAND_GOLD, border: `1px solid ${BRAND_GOLD}`, fontWeight: 600 }}
           >
-            ★ Welcome to Ogbomosho's Premier Hotel
+            ★ Welcome to Ibadan's Premier Hotel
           </div>
           <h1
             className="text-white mb-4"
             style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(2.5rem, 6vw, 5rem)', fontWeight: 700, lineHeight: 1.15 }}
           >
-            Brandon Hotel
-            <span style={{ color: BRAND_GOLD }}> & </span>
-            Apartments
+            SDM Tavern
+            <span style={{ color: BRAND_GOLD }}> Hotel &</span>
+            Suites
           </h1>
           <p className="text-lg max-w-2xl mx-auto mb-10" style={{ color: 'rgba(255,255,255,0.82)', lineHeight: 1.7 }}>
-            Where luxury meets comfort. Experience world-class hospitality, fine dining, and exceptional service in the heart of Ogbomosho.
+            Where luxury meets comfort. Experience world-class hospitality, fine dining, and exceptional service in the heart of Ibadan.
           </p>
 
           {/* Booking Form */}
@@ -232,7 +232,7 @@ export function HomePage() {
           <div className="text-center mb-12">
             <p className="text-xs tracking-widest uppercase mb-2" style={{ color: BRAND_GOLD, fontWeight: 600 }}>Why Choose Us</p>
             <h2 className="text-white" style={{ fontFamily: 'Playfair Display, serif', fontSize: '2rem', fontWeight: 700 }}>
-              The Brandon Difference
+              The SDM Difference
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
@@ -410,13 +410,13 @@ export function HomePage() {
             style={{ backgroundColor: BRAND_GOLD }}
           />
           <p className="text-xs tracking-widest uppercase mb-6" style={{ color: BRAND_GOLD, fontWeight: 600 }}>
-            The Brandon Experience
+            The SDM Experience
           </p>
           <blockquote
             className="text-white mb-8"
             style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(1.4rem, 3vw, 2.4rem)', fontWeight: 400, lineHeight: 1.5, fontStyle: 'italic' }}
           >
-            "Brandon Hotel offers a comfortable blend of relaxation, fine dining, and exceptional hospitality in the heart of Ogbomosho."
+            "SDM Tavern offers a comfortable blend of relaxation, fine dining, and exceptional hospitality in the heart of Ibadan."
           </blockquote>
           <div className="flex items-center justify-center gap-6 mt-10 flex-wrap">
             {[['500+', 'Happy Guests'], ['50+', 'Room Types'], ['5★', 'Guest Rating'], ['10+', 'Years of Service']].map(([num, label], i) => (
@@ -445,7 +445,7 @@ export function HomePage() {
             <div className="rounded-2xl overflow-hidden row-span-2">
               <ImageWithFallback
                 src="https://images.unsplash.com/photo-1766928210443-0be92ed5884a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=500"
-                alt="Brandon Hotel"
+                alt="SDM Tavern"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -550,24 +550,24 @@ export function HomePage() {
             <div>
               <p className="text-xs tracking-widest uppercase mb-3" style={{ color: BRAND_GOLD, fontWeight: 600 }}>Find Us</p>
               <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: '2.2rem', fontWeight: 700, color: BRAND_NAVY, lineHeight: 1.2 }}>
-                Conveniently Located in Ogbomosho
+                Conveniently Located in Ibadan
               </h2>
               <p className="mt-4 mb-8 leading-relaxed" style={{ color: '#6b7280' }}>
-                Brandon Hotel is strategically situated in the heart of Ogbomosho, making it easy to explore the city or reach any destination. We are just minutes from the city center and major landmarks.
+                SDM Tavern is strategically situated in the heart of Ibadan, making it easy to explore the city or reach any destination. We are just minutes from the city center and major landmarks.
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start gap-4 p-4 rounded-xl bg-white shadow-sm">
                   <MapPin size={20} style={{ color: BRAND_GOLD }} className="shrink-0 mt-0.5" />
                   <div>
                     <p className="font-semibold text-sm mb-0.5" style={{ color: BRAND_NAVY }}>Our Address</p>
-                    <p className="text-sm" style={{ color: '#6b7280' }}>123 Station Road, Ogbomosho, Oyo State, Nigeria</p>
+                    <p className="text-sm" style={{ color: '#6b7280' }}>Agodi, Ibadan 200285, Oyo State</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4 p-4 rounded-xl bg-white shadow-sm">
                   <Phone size={20} style={{ color: BRAND_GOLD }} className="shrink-0 mt-0.5" />
                   <div>
                     <p className="font-semibold text-sm mb-0.5" style={{ color: BRAND_NAVY }}>Call to Reserve</p>
-                    <p className="text-sm" style={{ color: '#6b7280' }}>+234 801 234 5678 | +234 809 876 5432</p>
+                    <p className="text-sm" style={{ color: '#6b7280' }}>+234 808 826 9483 | +234 809 876 5432</p>
                   </div>
                 </div>
               </div>
@@ -582,8 +582,8 @@ export function HomePage() {
             {/* Map embed placeholder */}
             <div className="rounded-2xl overflow-hidden shadow-xl h-80 lg:h-96">
               <iframe
-                title="Brandon Hotel Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31555.76786979637!2d4.253!3d8.147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10364d81e8f29e7d%3A0x0!2zOC4xNDcnMDAuMCJOIDQuMjUzJzAwLjAiRQ!5e0!3m2!1sen!2sng!4v1234567890"
+                title="SDM Tavern Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31555.76786979637!2d3.8667!3d7.3775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103950e71b8d4ac1%3A0x0!2z7Yk3LjM3NzUnTiDDkzMyLjc3NyclRQ!5e0!3m2!1sen!2sng!4v1712281234"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -613,7 +613,7 @@ export function HomePage() {
             Reserve Your Stay Today
           </h2>
           <p className="mb-10 text-lg" style={{ color: 'rgba(255,255,255,0.72)' }}>
-            Rooms fill up fast. Secure your booking now and enjoy a memorable stay at Brandon Hotel & Apartments.
+            Rooms fill up fast. Secure your booking now and enjoy a memorable stay at SDM Tavern Hotel & Suites.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -624,7 +624,7 @@ export function HomePage() {
               BOOK A ROOM
             </Link>
             <a
-              href={`https://wa.me/2348012345678?text=${encodeURIComponent("Hello! I'd like to make a reservation at Brandon Hotel.")}`}
+              href={`https://wa.me/2348088269483?text=${encodeURIComponent("Hello! I'd like to make a reservation at SDM Tavern.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="px-10 py-4 rounded-xl transition-all duration-200 hover:opacity-90"

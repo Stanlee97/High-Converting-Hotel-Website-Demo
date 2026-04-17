@@ -25,7 +25,7 @@ const values = [
   {
     icon: Users,
     title: 'Community First',
-    desc: 'We are proud to be part of the Ogbomosho community, creating jobs and supporting local suppliers.',
+    desc: 'We are proud to be part of the Ibadan community, creating jobs and supporting local suppliers.',
   },
 ];
 
@@ -52,7 +52,7 @@ const values = [
 // ];
 
 const milestones = [
-  { year: '2014', event: 'Brandon Hotel & Apartments was founded in Ogbomosho' },
+  { year: '2014', event: 'SDM Tavern Hotel & Suites was founded in Ibadan' },
   { year: '2016', event: 'Expanded to 50 rooms and launched our restaurant' },
   { year: '2018', event: 'Won the Oyo State Hospitality Excellence Award' },
   { year: '2020', event: 'Upgraded all rooms and launched our Luxury Apartment wing' },
@@ -67,7 +67,7 @@ export function AboutPage() {
       <section className="relative h-[60vh] min-h-[400px] flex items-end overflow-hidden">
         <ImageWithFallback
           src="https://images.unsplash.com/photo-1745725427804-4d94df0c5eb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1400"
-          alt="Brandon Hotel"
+          alt="SDM Tavern"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div
@@ -77,7 +77,7 @@ export function AboutPage() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 pb-16 w-full">
           <p className="text-xs tracking-widest uppercase mb-3" style={{ color: BRAND_GOLD, fontWeight: 600 }}>Our Story</p>
           <h1 className="text-white" style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 700 }}>
-            About Brandon Hotel
+            About SDM Tavern
           </h1>
         </div>
       </section>
@@ -113,20 +113,20 @@ export function AboutPage() {
                 A Decade of Excellence in Nigerian Hospitality
               </h2>
               <p className="mt-5 mb-5 leading-relaxed" style={{ color: '#6b7280' }}>
-                Brandon Hotel & Apartments was founded in 2014 with a simple yet powerful vision: to bring world-class hospitality to the people of Ogbomosho and every traveler who passes through this great city.
+              SDM Tavern Hotel & Suites was founded in 2014 with a simple yet powerful vision: to bring world-class hospitality to the people of Ibadan and every traveler who passes through this great city.
               </p>
               <p className="mb-5 leading-relaxed" style={{ color: '#6b7280' }}>
-                What began as a modest guesthouse has grown into one of Ogbomosho's most celebrated hotels, offering a diverse range of accommodations — from comfortable standard rooms to fully serviced luxury apartments.
+                What began as a modest guesthouse has grown into one of Ibadan's most celebrated hotels, offering a diverse range of accommodations — from comfortable standard rooms to fully serviced luxury apartments.
               </p>
               <p className="leading-relaxed" style={{ color: '#6b7280' }}>
-                Over the years, we have welcomed thousands of guests — business travelers, families, tourists, and dignitaries — all united by the warm, attentive hospitality that defines the Brandon experience.
+                Over the years, we have welcomed thousands of guests — business travelers, families, tourists, and dignitaries — all united by the warm, attentive hospitality that defines the SDM Tavern experience.
               </p>
             </div>
             <div className="relative">
               <div className="rounded-3xl overflow-hidden h-96 shadow-2xl">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1637684666587-91e51b10a555?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800"
-                  alt="Brandon Hotel history"
+                  src=""
+                  alt="SDM Tavern history"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -151,7 +151,7 @@ export function AboutPage() {
               Our Mission & Values
             </h2>
             <p className="mt-4 max-w-xl mx-auto" style={{ color: '#6b7280' }}>
-              Everything we do at Brandon Hotel is guided by a commitment to quality, integrity, and genuine care for our guests.
+              Everything we do at SDM Tavern is guided by a commitment to quality, integrity, and genuine care for our guests.
             </p>
           </div>
 
@@ -187,19 +187,19 @@ export function AboutPage() {
             className="text-white mb-8"
             style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(1.4rem, 3vw, 2rem)', fontWeight: 400, lineHeight: 1.6, fontStyle: 'italic' }}
           >
-            "A hotel is not just a place to sleep — it is a place to feel at home, to feel valued, and to feel like the best version of yourself. At Brandon Hotel, we believe every guest deserves nothing less."
+            "A hotel is not just a place to sleep — it is a place to feel at home, to feel valued, and to feel like the best version of yourself. At SDM Tavern, we believe every guest deserves nothing less."
           </blockquote>
           <div className="flex items-center justify-center gap-3">
             <div className="w-10 h-10 rounded-full overflow-hidden">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1637684666587-91e51b10a555?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=100"
+                src=""
                 alt="Founder"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="text-left">
-              <p className="text-sm font-semibold text-white">Mr. Adewale Brandon</p>
-              <p className="text-xs" style={{ color: 'rgba(255,255,255,0.5)' }}>Founder & CEO, Brandon Hotel</p>
+              <p className="text-sm font-semibold text-white">Mr. xxx xxxx</p>
+              <p className="text-xs" style={{ color: 'rgba(255,255,255,0.5)' }}>Founder & CEO, SDM Tavern</p>
             </div>
           </div>
         </div>
@@ -246,7 +246,7 @@ export function AboutPage() {
             Come Experience Us for Yourself
           </h2>
           <p className="mb-8" style={{ color: '#6b7280' }}>
-            Stories are great, but the Brandon experience is even better. Book your stay today and discover why thousands of guests keep coming back.
+            Stories are great, but the SDM Tavern experience is even better. Book your stay today and discover why thousands of guests keep coming back.
           </p>
           <Link
             to="/booking"

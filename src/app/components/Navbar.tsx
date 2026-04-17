@@ -49,14 +49,14 @@ export function Navbar() {
               className="w-10 h-10 rounded-full flex items-center justify-center text-white shrink-0"
               style={{ backgroundColor: BRAND_GOLD }}
             >
-              <span style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.1rem', fontWeight: 700 }}>B</span>
+              <span style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.1rem', fontWeight: 700 }}>S</span>
             </div>
             <div>
               <div className="text-white leading-none" style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.05rem', fontWeight: 700, letterSpacing: '0.05em' }}>
-                BRANDON
+                SDM TAVERN
               </div>
               <div className="text-xs tracking-widest" style={{ color: BRAND_GOLD, fontFamily: 'Inter, sans-serif', fontWeight: 400 }}>
-                HOTEL & APARTMENTS
+                HOTEL & SUITES
               </div>
             </div>
           </Link>
@@ -87,12 +87,12 @@ export function Navbar() {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+2348012345678"
+              href="tel:+2348088269483"
               className="flex items-center gap-2 text-sm"
               style={{ color: 'rgba(255,255,255,0.8)', fontFamily: 'Inter, sans-serif' }}
             >
               <Phone size={14} />
-              <span>+234 801 234 5678</span>
+              <span>+234 808 826 9483</span>
             </a>
             <Link
               to="/booking"

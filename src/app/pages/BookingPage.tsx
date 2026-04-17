@@ -93,7 +93,7 @@ export function BookingPage() {
             ))}
           </div>
           <a
-            href={`https://wa.me/2348012345678?text=${encodeURIComponent(`Hello! I just made a booking for ${selectedRoom.label}. Check-in: ${form.checkIn}, Check-out: ${form.checkOut}. Name: ${form.firstName} ${form.lastName}. Please confirm my reservation.`)}`}
+            href={`https://wa.me/2348088269483?text=${encodeURIComponent(`Hello! I just made a booking for ${selectedRoom.label}. Check-in: ${form.checkIn}, Check-out: ${form.checkOut}. Name: ${form.firstName} ${form.lastName}. Please confirm my reservation.`)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl text-white"
@@ -116,7 +116,7 @@ export function BookingPage() {
             Book Your Stay
           </h1>
           <p style={{ color: 'rgba(255,255,255,0.65)' }}>
-            Fill in the details below to reserve your preferred room at Brandon Hotel.
+            Fill in the details below to reserve your preferred room at SDM Tavern.
           </p>
         </div>
       </section>
@@ -504,7 +504,7 @@ export function BookingPage() {
                 <p className="text-sm font-semibold mb-2" style={{ color: BRAND_NAVY }}>Need Help Booking?</p>
                 <p className="text-xs mb-4" style={{ color: '#6b7280' }}>Our team is available 24/7 to assist with your reservation.</p>
                 <a
-                  href={`https://wa.me/2348012345678?text=${encodeURIComponent("Hello! I need help with a room reservation.")}`}
+                  href={`https://wa.me/2348088269483?text=${encodeURIComponent("Hello! I need help with a room reservation.")}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 w-full justify-center py-3 rounded-xl text-white text-sm"

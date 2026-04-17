@@ -105,7 +105,7 @@ export function GalleryPage() {
             Our Gallery
           </h1>
           <p style={{ color: 'rgba(255,255,255,0.65)', lineHeight: 1.7 }}>
-            Explore the beauty and elegance of Brandon Hotel — from our luxurious rooms to our vibrant restaurant and stunning facilities.
+            Explore the beauty and elegance of SDM Tavern — from our luxurious rooms to our vibrant restaurant and stunning facilities.
           </p>
         </div>
       </section>

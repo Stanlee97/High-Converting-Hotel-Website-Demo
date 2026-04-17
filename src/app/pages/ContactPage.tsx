@@ -41,15 +41,15 @@ export function ContactPage() {
       <div className="py-8 border-b" style={{ backgroundColor: '#fff', borderColor: '#e5ddc8' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 flex flex-wrap items-center justify-center gap-4">
           <a
-            href="tel:+2348012345678"
+            href="tel:+2348088269483"
             className="flex items-center gap-2.5 px-6 py-3 rounded-xl transition-all hover:opacity-90 text-white text-sm"
             style={{ backgroundColor: BRAND_NAVY, fontWeight: 600 }}
           >
             <Phone size={16} />
-            Call Now: +234 801 234 5678
+            Call Now: +234 808 826 9483
           </a>
           <a
-            href={`https://wa.me/2348012345678?text=${encodeURIComponent("Hello Brandon Hotel! I need assistance.")}`}
+            href={`https://wa.me/2348088269483?text=${encodeURIComponent("Hello SDM Tavern! I need assistance.")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2.5 px-6 py-3 rounded-xl transition-all hover:opacity-90 text-white text-sm"
@@ -59,12 +59,12 @@ export function ContactPage() {
             WhatsApp Chat
           </a>
           <a
-            href="mailto:info@brandonhotel.com"
+            href="mailto:info@sdmnitrotech.com.ng"
             className="flex items-center gap-2.5 px-6 py-3 rounded-xl transition-all hover:opacity-90 text-sm"
             style={{ backgroundColor: BRAND_CREAM, color: BRAND_NAVY, fontWeight: 600, border: `1px solid #e5ddc8` }}
           >
             <Mail size={16} />
-            info@brandonhotel.com
+            info@sdmnitrotech.com.ng
           </a>
         </div>
       </div>
@@ -86,7 +86,7 @@ export function ContactPage() {
                   <div>
                     <p className="font-semibold text-sm mb-1" style={{ color: BRAND_NAVY }}>Address</p>
                     <p className="text-sm" style={{ color: '#6b7280', lineHeight: 1.6 }}>
-                      123 Station Road, Ogbomosho,<br />Oyo State, Nigeria
+                      Agodi, Ibadan 200285,<br />Oyo State
                     </p>
                   </div>
                 </div>
@@ -97,7 +97,7 @@ export function ContactPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-sm mb-1" style={{ color: BRAND_NAVY }}>Phone Numbers</p>
-                    <a href="tel:+2348012345678" className="text-sm block hover:opacity-80" style={{ color: '#6b7280' }}>+234 801 234 5678</a>
+                    <a href="tel:+2348088269483" className="text-sm block hover:opacity-80" style={{ color: '#6b7280' }}>+234 808 826 9483</a>
                     <a href="tel:+2348098765432" className="text-sm block hover:opacity-80" style={{ color: '#6b7280' }}>+234 809 876 5432</a>
                     <a href="tel:+2348034567890" className="text-sm block hover:opacity-80" style={{ color: '#6b7280' }}>+234 803 456 7890</a>
                   </div>
@@ -109,8 +109,8 @@ export function ContactPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-sm mb-1" style={{ color: BRAND_NAVY }}>Email</p>
-                    <a href="mailto:info@brandonhotel.com" className="text-sm hover:opacity-80" style={{ color: '#6b7280' }}>info@brandonhotel.com</a>
-                    <a href="mailto:reservations@brandonhotel.com" className="text-sm block hover:opacity-80" style={{ color: '#6b7280' }}>reservations@brandonhotel.com</a>
+                    <a href="mailto:info@sdmnitrotech.com.ng" className="text-sm hover:opacity-80" style={{ color: '#6b7280' }}>info@sdmnitrotech.com.ng</a>
+                    <a href="mailto:reservations@sdmnitrotech.com.ng" className="text-sm block hover:opacity-80" style={{ color: '#6b7280' }}>reservations@sdmnitrotech.com.ng</a>
                   </div>
                 </div>
 
@@ -139,7 +139,7 @@ export function ContactPage() {
                 Chat with our reception desk directly for the fastest booking experience.
               </p>
               <a
-                href={`https://wa.me/2348012345678?text=${encodeURIComponent("Hello Brandon Hotel! I'd like to make a booking enquiry.")}`}
+                href={`https://wa.me/2348088269483?text=${encodeURIComponent("Hello SDM Tavern! I'd like to make a booking enquiry.")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 w-full justify-center py-3 rounded-xl text-white transition-all hover:opacity-90"
@@ -272,8 +272,8 @@ export function ContactPage() {
       {/* Map */}
       <section className="h-80 md:h-96">
         <iframe
-          title="Brandon Hotel Location Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31555.76786979637!2d4.253!3d8.147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10364d81e8f29e7d%3A0x0!2zOC4xNDcnMDAuMCJOIDQuMjUzJzAwLjAiRQ!5e0!3m2!1sen!2sng!4v1234567890"
+          title="SDM Tavern Location Map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31555.76786979637!2d3.8667!3d7.3775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103950e71b8d4ac1%3A0x0!2z7Yk3LjM3NzUnTiDDkzMyLjc3NyclRQ!5e0!3m2!1sen!2sng!4v1712281234"
           width="100%"
           height="100%"
           style={{ border: 0 }}

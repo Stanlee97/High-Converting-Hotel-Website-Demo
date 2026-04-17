@@ -4,7 +4,7 @@ import { X } from 'lucide-react';
 export function WhatsAppButton() {
   const [showTooltip, setShowTooltip] = useState(true);
 
-  const whatsappUrl = `https://wa.me/2348012345678?text=${encodeURIComponent("Hello Brandon Hotel! I'd like to make a reservation. Please assist me.")}`;
+  const whatsappUrl = `https://wa.me/2348088269483?text=${encodeURIComponent("Hello SDM Tavern! I'd like to make a reservation. Please assist me.")}`;
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">

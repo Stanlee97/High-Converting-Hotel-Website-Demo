@@ -74,7 +74,7 @@ const rooms = [
     size: '80 sqm',
     img: 'https://images.unsplash.com/photo-1746549843996-5153a7a27953?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=900',
     description:
-      'Our Presidential Suite is the crown jewel of Brandon Hotel. Offering panoramic views, a private lounge, king-size bed, and butler service for a truly royal experience.',
+      'Our Presidential Suite is the crown jewel of SDM Tavern. Offering panoramic views, a private lounge, king-size bed, and butler service for a truly royal experience.',
     amenities: [
       { icon: Wifi, label: 'Dedicated WiFi' },
       { icon: Tv, label: 'Home Theater' },
